@@ -12,7 +12,13 @@
 
 num = int(input("Enter a number: "))
 # code here
-```
+```num = int(input("Enter a number: "))
+if num <=  -1:
+ print('Negative')
+elif num >= 1:
+ print('Positive')  
+else:
+ print('zero')  
 
 ### Question 2
 ```python
@@ -29,7 +35,11 @@ num = int(input("Enter a number: "))
 
 password = input("Enter your password: ")
 # code here
-```
+```password = input("Enter your password: ")
+if password == 'admin123':
+  print('Access granted')
+else:
+    print('Access denied')
 
 ### Question 3
 ```python
@@ -46,7 +56,11 @@ password = input("Enter your password: ")
 
 num = int(input("Enter a number: "))
 # code here
-```
+```num = int(input("Enter a number: "))
+if (num % 5 == 0):
+ print('Divisible by 5')
+else:
+    print('not Divisible by 5')
 
 ### Question 4
 ```python
@@ -64,7 +78,19 @@ num = int(input("Enter a number: "))
 char = input("Enter a character: ")
 # code here
 
-```
+```char = input("Enter a character: ")
+if char == ('a'):
+  print('Vowel')
+elif char == ('e'):
+  print('Vowel')
+elif char == ('i'):
+  print('Vowel')
+elif char == ('o'):
+  print('Vowel')
+elif char == ('u'):
+  print('Vowel') 
+else :
+  print('Consonant')
 
 ### Question 5
 ```python
@@ -81,7 +107,12 @@ char = input("Enter a character: ")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 # code here
-```
+```num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+if num1 > num2:
+    print (num1)
+elif num1 < num2:
+    print (num2) 
 
 ### Question 6
 ```python
@@ -100,7 +131,11 @@ num2 = int(input("Enter second number: "))
 
 year = int(input("Enter a year: "))
 # code here
-```
+```year = int(input("Enter a year: "))
+if year % 4 == 0:
+    print('leap year')
+else:
+    print('not a leap year')
 
 ### Question 7
 ```python
@@ -118,7 +153,9 @@ year = int(input("Enter a year: "))
 
 celsius = float(input("Enter temperature in Celsius: "))
 # code here
-```
+```celsius = float(input("Enter temperature in Celsius: "))
+area = celsius * 9/5 + 32
+print(area)
 
 ### Question 8
 ```python
@@ -136,7 +173,15 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 num3 = int(input("Enter third number: "))
 # code here
-```
+```num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+if num2 < num1 > num3:
+    print (num1)
+elif num1 < num2 > num3:
+    print (num2) 
+elif num1 < num3 > num2:
+     print (num3) 
 
 ### Question 9
 ```python
@@ -154,7 +199,13 @@ num3 = int(input("Enter third number: "))
 
 num = int(input("Enter a number: "))
 # code here
-```
+```num = int(input("Enter a number: "))
+if num <=  -1:
+ print('Negative')
+elif num >= 1:
+ print('Positive')  
+else:Welcome, guest!
+ print('zero')
 
 ### Question 10
 ```python
@@ -171,4 +222,8 @@ num = int(input("Enter a number: "))
 
 username = input("Enter your username: ")
 # code here
-```
+```username = input("Enter your username: ")
+if username == 'admin':
+  print('Welcome, admin!')
+else:
+    print('Welcome, guest!')
